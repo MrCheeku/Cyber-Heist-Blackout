@@ -1,21 +1,16 @@
 <div align="center">
 
-<img src="app/src/main/res/drawable/ic_cyber_heist.jpg" alt="CYBER HEIST // BLACKOUT" width="100%" />
-
-# CYBER HEIST // BLACKOUT
-
-<strong>Enter the breach. Learn the defense. Survive the blackout.</strong>
+<img src="assets/header.svg" alt="Cyber Heist — Blackout cybersecurity simulation" width="100%" />
 
 <p>
-  <img src="https://img.shields.io/badge/Android-Compose-3DDC84?style=for-the-badge&logo=android&logoColor=white" alt="Android" />
-  <img src="https://img.shields.io/badge/Kotlin-2.x-7F52FF?style=for-the-badge&logo=kotlin&logoColor=white" alt="Kotlin" />
-  <img src="https://img.shields.io/badge/Jetpack%20Compose-UI-4285F4?style=for-the-badge&logo=android&logoColor=white" alt="Jetpack Compose" />
-  <img src="https://img.shields.io/github/stars/MrCheeku/Cyber-Heist-Blackout?style=for-the-badge&label=STARS" alt="GitHub stars" />
+  <a href="https://github.com/MrCheeku/Cyber-Heist-Blackout"><img src="https://img.shields.io/github/stars/MrCheeku/Cyber-Heist-Blackout?style=for-the-badge&label=STARS&cacheSeconds=60" alt="GitHub stars" /></a>
+  <a href="https://github.com/MrCheeku/Cyber-Heist-Blackout"><img src="https://img.shields.io/github/last-commit/MrCheeku/Cyber-Heist-Blackout?style=for-the-badge&label=UPDATED" alt="Last commit" /></a>
+  <a href="https://img.shields.io/github/repo-size/MrCheeku/Cyber-Heist-Blackout"><img src="https://img.shields.io/github/repo-size/MrCheeku/Cyber-Heist-Blackout?style=for-the-badge&label=SIZE" alt="Repository size" /></a>
 </p>
 
-<p>
-  <a href="https://github.com/MrCheeku"><img src="https://img.shields.io/badge/ENGINEERED%20BY-Mr.Cheeku-111827?style=for-the-badge&logo=github&logoColor=white" alt="Engineered by Mr.Cheeku" /></a>
-</p>
+<p><strong>Story-driven cyber operations • Security puzzles • Defensive learning • Android</strong></p>
+
+<a href="https://github.com/MrCheeku"><img src="https://img.shields.io/badge/ENGINEERED%20BY-Mr.Cheeku-111827?style=for-the-badge&logo=github&logoColor=white" alt="Engineered by Mr.Cheeku" /></a>
 
 </div>
 
@@ -23,164 +18,176 @@
 
 ## 🕶️ What is Cyber Heist // Blackout?
 
-**Cyber Heist // Blackout** is an immersive Android cybersecurity game built with **Kotlin + Jetpack Compose**. It turns defensive-security concepts into an interactive cyber-operation: follow the story, solve technical puzzles, inspect simulated threats, strengthen defenses, and learn why the controls matter.
+**Cyber Heist // Blackout** is an Android cybersecurity game that turns defensive-security concepts into a cinematic, interactive operation. Built with **Kotlin + Jetpack Compose**, it combines missions, simulated attacks, encryption puzzles, digital forensics, network challenges, security audits, upgrades, and an optional Gemini-powered assistant.
 
-The project is designed as a **safe simulation**. The terminal, network, attack-box, credentials, packets, and target systems are fictional game systems rather than real-world infrastructure.
+The world inside the app is a **self-contained simulation**. Targets, credentials, flags, packets, terminals, and attack-boxes are fictional game data.
 
 ### ✨ Highlights
 
 | Capability | What it does |
 |---|---|
-| **Cinematic Boot Sequence** | Drops the player into the operation with a cyberpunk terminal-style intro. |
-| **Mission System** | Progress through story-driven missions with stateful objectives, scores, upgrades, and endings. |
-| **Interactive Security Lab** | Explore hands-on simulations built around common security concepts. |
-| **Network Maze** | Navigate a fictional network puzzle and make defensive decisions under pressure. |
-| **Encryption Puzzles** | Solve encoding/crypto-inspired challenges to advance the story. |
-| **Digital Forensics** | Investigate simulated evidence and piece together what happened. |
-| **Threat Radar** | Track fictional live events and respond to changing security conditions. |
-| **Security Audit** | Review personal-security concepts and defensive controls in a guided experience. |
-| **TryHackMe-style Lab** | Practice inside a self-contained attack-box/target-browser simulation with no external target required. |
-| **Cyber AI Chat** | Optional Gemini-powered in-game assistant for explanations and mission guidance. |
-| **Leaderboards & Upgrades** | Replay, improve your score, and customize your cyber-operator progression. |
-| **Save Game** | Persist player progress locally on-device. |
+| **Mission Campaign** | Story-driven operations with objectives, scores, upgrades, and multiple endings. |
+| **Cyberpunk Interface** | Boot sequence, terminal UI, threat panels, animated backgrounds, audio, and themed Compose components. |
+| **Interactive Security Lab** | Guided simulations and hands-on security mini-games. |
+| **Network Maze** | Solve a fictional network-navigation challenge under pressure. |
+| **Encryption Puzzles** | Encoding and cryptography-inspired challenges. |
+| **Digital Forensics** | Inspect simulated evidence and reconstruct incidents. |
+| **Threat Radar** | Respond to fictional real-time threat events. |
+| **Personal Security Audit** | Review practical defensive-security habits and controls. |
+| **TryHackMe-style Rooms** | Self-contained simulated rooms with no real targets. |
+| **Gemini Cyber Assistant** | Optional AI chat for explanations, hints, and mission guidance. |
+| **Progression System** | Leaderboards, upgrades, save data, replayability, and multiple outcomes. |
 
-> **Safety:** This app is an educational simulation. Do not use its fictional workflows, examples, or commands against systems you do not own or have explicit permission to test.
+> ⚠️ **Safety rule:** use the project only as a simulation and educational tool. Never apply its workflows to systems you do not own or have explicit permission to test.
 
 ---
 
-## 🎮 Core Experience
+## ✨ Core Experience
 
 ```text
 BOOT → INVESTIGATE → SOLVE → DEFEND → UPGRADE → RESCAN → SURVIVE
 ```
 
-The game combines narrative progression with technical mini-games. Each system feeds the central `CyberGameViewModel`, which coordinates missions, player state, threats, lab interactions, save data, and optional AI assistance.
+A central `CyberGameViewModel` coordinates player state, missions, simulated threats, puzzle interactions, persistence, audio, and optional AI assistance.
+
+## 🎬 Cyber Operation Preview
+
+<div align="center">
+
+<img src="app/src/main/res/drawable/ic_cyber_heist.jpg" alt="Cyber Heist Blackout visual" width="900" />
+
+> 🎥 **Visual preview:** the project includes its own cyberpunk artwork and themed Android UI. The complete experience contains missions, labs, terminal gameplay, forensics, encryption, threat radar, and simulated TryHackMe-style rooms.
+
+</div>
 
 ---
 
-## 🧭 Project Architecture
+## 🧰 Tech Stack
+
+<div align="center">
+
+### Android & UI
+<img src="https://skillicons.dev/icons?i=android,kotlin,gradle" alt="Android, Kotlin, Gradle" />
+
+### Architecture
+<img src="https://img.shields.io/badge/Jetpack%20Compose-UI-4285F4?style=flat-square&logo=android&logoColor=white" alt="Jetpack Compose" />
+<img src="https://img.shields.io/badge/ViewModel-Game%20State-0891b2?style=flat-square" alt="Android ViewModel" />
+<img src="https://img.shields.io/badge/DataStore-Local%20Save-059669?style=flat-square" alt="DataStore" />
+<img src="https://img.shields.io/badge/Retrofit-API%20Layer-48B983?style=flat-square" alt="Retrofit" />
+
+### Security & AI
+<img src="https://img.shields.io/badge/Cybersecurity-Simulation-DC2626?style=flat-square" alt="Cybersecurity simulation" />
+<img src="https://img.shields.io/badge/Gemini-Optional%20AI-7c3aed?style=flat-square" alt="Gemini optional AI" />
+<img src="https://img.shields.io/badge/Secrets-Environment%20Only-111827?style=flat-square" alt="Environment-only secrets" />
+
+</div>
+
+---
+
+## 🧭 Project Structure
+
+> 🎨 **Interactive Mermaid architecture:** compact, color-coded, and organized like the author's other repositories.
 
 ```mermaid
 flowchart TB
-    A[🕶️ CYBER HEIST // BLACKOUT] --> B[📱 Compose UI]
+    A[🕶️ Cyber Heist // Blackout] --> B[📱 Compose UI]
     B --> C[🎮 CyberGameViewModel]
-    C --> D[🧠 Game Models]
-    C --> E[💾 SaveGameManager]
-    C --> F[🛡️ Security Simulations]
-    C --> G[⚡ CyberAudioEngine]
-    C --> H[🤖 Gemini Chat]
-    D --> I[Mission Data]
-    D --> J[Security Concepts]
-    D --> K[THM-style Labs]
-    D --> L[Server / Encryption Puzzles]
-    H --> M[Gemini API]
-    
-    classDef root fill:#7c3aed,stroke:#c4b5fd,color:#fff,stroke-width:3px;
-    classDef ui fill:#2563eb,stroke:#93c5fd,color:#fff,stroke-width:2px;
-    classDef core fill:#0891b2,stroke:#67e8f9,color:#fff,stroke-width:2px;
-    classDef data fill:#059669,stroke:#6ee7b7,color:#fff,stroke-width:2px;
-    classDef feature fill:#d97706,stroke:#fcd34d,color:#fff,stroke-width:2px;
-    classDef external fill:#475569,stroke:#cbd5e1,color:#fff,stroke-width:2px;
+    C --> D[🧠 Game & Mission Models]
+    C --> E[🛡️ Security Simulations]
+    C --> F[💾 SaveGameManager]
+    C --> G[🔊 CyberAudioEngine]
+    C --> H[🤖 Gemini Assistant]
+    D --> I[🧩 Puzzle Data]
+    D --> J[🧪 TryHackMe-style Rooms]
+    E --> K[🔎 Forensics / Audit / Threat Radar]
+    H --> L[☁️ Gemini API]
+
+    classDef root fill:#7c3aed,stroke:#c4b5fd,color:#ffffff,stroke-width:3px;
+    classDef ui fill:#2563eb,stroke:#93c5fd,color:#ffffff,stroke-width:2px;
+    classDef core fill:#0891b2,stroke:#67e8f9,color:#ffffff,stroke-width:2px;
+    classDef data fill:#059669,stroke:#6ee7b7,color:#ffffff,stroke-width:2px;
+    classDef feature fill:#d97706,stroke:#fcd34d,color:#ffffff,stroke-width:2px;
+    classDef external fill:#475569,stroke:#cbd5e1,color:#ffffff,stroke-width:2px;
     class A root;
     class B ui;
     class C core;
-    class D,E,I,J,K,L data;
-    class F,G,H feature;
-    class M external;
+    class D,F,I,J data;
+    class E,G,K feature;
+    class H,L external;
 ```
 
-### 📂 Project structure
+### 📱 Mobile-friendly note
+
+This is **real Mermaid source—not a screenshot**. GitHub controls Mermaid rendering in each client.
+
+<details>
+<summary>📂 View Project Structure as Text</summary>
 
 ```text
 🕶️ Cyber-Heist-Blackout
 │
 ├── 📱 app/
-│   ├── src/main/java/com/example/cyberheist/
-│   │   ├── audio/
-│   │   │   └── CyberAudioEngine.kt
-│   │   ├── data/
-│   │   │   ├── SaveGameManager.kt
-│   │   │   ├── GeminiApiService.kt
-│   │   │   └── GeminiChatRepository.kt
-│   │   ├── model/
-│   │   │   ├── GameState.kt
-│   │   │   ├── MissionData.kt
-│   │   │   ├── SecurityConcepts.kt
-│   │   │   ├── ServerPuzzleModels.kt
-│   │   │   ├── TryHackMeModels.kt
-│   │   │   └── GeminiChatModels.kt
-│   │   ├── ui/
-│   │   │   ├── components/
-│   │   │   └── screens/
-│   │   └── viewmodel/
-│   │       └── CyberGameViewModel.kt
-│   ├── src/test/
-│   └── src/androidTest/
+│   ├── 🧩 src/main/java/com/example/
+│   │   ├── cyberheist/
+│   │   │   ├── audio/
+│   │   │   ├── data/
+│   │   │   ├── model/
+│   │   │   ├── ui/
+│   │   │   │   ├── components/
+│   │   │   │   └── screens/
+│   │   │   └── viewmodel/
+│   │   └── ui/theme/
+│   ├── 🧪 src/test/
+│   ├── 🧪 src/androidTest/
+│   └── ⚙️ build.gradle.kts
 │
-├── ⚙️ gradle/
-├── 📄 .env.example
-├── 📄 SECURITY.md
-├── 📄 CONTRIBUTING.md
+├── 🎨 assets/
+│   ├── header.svg
+│   └── footer.svg
+├── 🔑 .env.example
+├── 🛡️ SECURITY.md
+├── 🤝 CONTRIBUTING.md
 ├── 📄 LICENSE
+├── 📋 metadata.json
 ├── ⚙️ build.gradle.kts
 ├── ⚙️ gradle.properties
-├── ⚙️ settings.gradle.kts
-└── 📖 README.md
+├── 📦 gradle/libs.versions.toml
+└── ⚙️ settings.gradle.kts
 ```
+
+</details>
 
 ### 🔄 How the pieces connect
 
 ```text
-📱 Screens + Components
-          │
-          ▼
-🎮 CyberGameViewModel
-   ├──► 🧠 Mission / puzzle data
-   ├──► 🛡️ Security simulations
-   ├──► 💾 SaveGameManager
-   ├──► 🔊 Audio engine
-   └──► 🤖 Optional Gemini assistant
+📱 Compose Screens + Components
+             │
+             ▼
+      🎮 Game ViewModel
+       │    │    │    │
+       │    │    │    └────► 🤖 Optional Gemini Assistant
+       │    │    │
+       │    │    └─────────► 🔊 Audio Engine
+       │    │
+       │    └──────────────► 💾 Local Save Data
+       │
+       └───────────────────► 🧠 Missions + Security Simulations
 ```
 
-The repository keeps gameplay orchestration, reusable UI, data models, persistence, audio, and network-facing AI code separated so contributors can work on one layer without hunting through the whole app.
+The repository separates UI, game orchestration, models, persistence, audio, simulations, and AI integration so contributors can locate each responsibility quickly.
 
 ---
 
-## 🛡️ Security & Privacy
+## 🛡️ Security Design
 
-Cyber Heist // Blackout is built around **fictional game data**, not production credentials or real attack targets.
+- No real private keys or production credentials are required by the game.
+- Gemini configuration is local-only through `GEMINI_API_KEY`.
+- Release signing values are supplied through environment variables.
+- Common secret-bearing files are ignored by Git.
+- Simulated private-key content in educational rooms is redacted rather than storing usable key material.
+- TryHackMe-style rooms are self-contained game simulations.
 
-- Real API keys belong in local secrets only; `.env` is ignored by Git.
-- Release signing values are read from environment variables rather than stored in the repository.
-- Debug builds use Android's normal debug signing instead of a checked-in keystore.
-- The repository excludes common secret-bearing files such as `.env`, `.jks`, `.keystore`, `.pem`, `.key`, and credential files.
-- The in-game attack scenarios are simulations. No real target discovery or exploitation infrastructure is bundled.
-
-See [`SECURITY.md`](SECURITY.md) for the repository's security policy and secret-handling guidance.
-
----
-
-## 🤖 Optional Gemini Assistant
-
-The game can use a Gemini API key for its optional AI chat experience.
-
-### Local configuration
-
-Create a local `.env` file from the example:
-
-```bash
-cp .env.example .env
-```
-
-Then set:
-
-```text
-GEMINI_API_KEY=your_real_key_here
-```
-
-Never commit `.env`, API keys, copied secrets, or exported credentials.
-
-> The app remains usable without a real key for the core offline game experience; AI chat requires a valid local configuration.
+See [`SECURITY.md`](SECURITY.md) for the repository security policy.
 
 ---
 
@@ -188,61 +195,58 @@ Never commit `.env`, API keys, copied secrets, or exported credentials.
 
 ### Requirements
 
-- Android Studio with a recent stable Android toolchain
+- Android Studio with a recent stable Android/Gradle toolchain
 - JDK 11+
-- Android SDK matching the project's configured compile/target SDK
+- Android SDK matching the configured compile/target SDK
 
-### Open the project
+### Open in Android Studio
 
-1. Clone this repository.
+1. Clone the repository.
 2. Open it in Android Studio.
-3. Let Gradle sync complete.
-4. Create `.env` only when you want the Gemini-powered features.
-5. Run the `app` configuration on an emulator or Android device.
+3. Sync Gradle.
+4. Run the `app` configuration on an emulator or Android device.
 
-### Build from the command line
+### Configure optional Gemini AI
 
-```bash
-./gradlew assembleDebug
+Create a local `.env` from `.env.example` and set:
+
+```text
+GEMINI_API_KEY=your_real_key_here
 ```
 
-### Run tests
-
-```bash
-./gradlew test
-```
-
-For Android instrumentation tests, use an emulator/device and run:
-
-```bash
-./gradlew connectedAndroidTest
-```
+> Never commit `.env`, API keys, keystores, passwords, or exported credentials.
 
 ---
 
 ## 🧪 Testing
 
-The project includes JVM tests, Android instrumentation tests, Compose UI screenshot support, Robolectric, and Roborazzi-related test tooling.
-
-Before opening a pull request:
+The project includes JVM tests, Android instrumentation tests, Compose UI testing support, Robolectric, and Roborazzi screenshot tooling.
 
 ```bash
 ./gradlew test
 ./gradlew assembleDebug
+./gradlew connectedAndroidTest
 ```
+
+---
+
+## ⚠️ Demo / Simulation Scope
+
+Cyber Heist // Blackout is an educational game, not a production penetration-testing platform. Simulated terminals, flags, network addresses, attack-boxes, credentials, and vulnerabilities exist to support gameplay and learning.
 
 ---
 
 ## 🗺️ Roadmap
 
 - [x] Story-driven cyber operations
-- [x] Compose-based cyberpunk interface
+- [x] Cyberpunk Jetpack Compose interface
 - [x] Mission progression and multiple endings
-- [x] Interactive encryption / encoding puzzles
+- [x] Encryption / encoding puzzles
 - [x] Network and forensics simulations
 - [x] Security concepts and defensive labs
 - [x] Local save system
 - [x] Optional Gemini AI assistant
+- [x] TryHackMe-style self-contained rooms
 - [ ] Expanded mission packs
 - [ ] More accessibility options
 - [ ] Achievement / challenge system
@@ -256,8 +260,8 @@ Before opening a pull request:
 <div align="center">
 
 <a href="https://techwithcheeku.lovable.app/"><img src="https://img.shields.io/badge/Visit%20Tech%20with%20Cheeku-Website-7c3aed?style=for-the-badge&logo=googlechrome&logoColor=white" alt="Tech with Cheeku website" /></a>
-<a href="https://github.com/MrCheeku"><img src="https://img.shields.io/badge/GitHub-Mr.Cheeku-111827?style=for-the-badge&logo=github&logoColor=white" alt="Mr.Cheeku on GitHub" /></a>
-<a href="https://discord.gg/GWJvzcxu"><img src="https://img.shields.io/badge/Join%20Discord-5865F2?style=for-the-badge&logo=discord&logoColor=white" alt="Discord" /></a>
+<a href="https://whatsapp.com/channel/0029Vb9OpwgD8SDvISwrn73Y"><img src="https://img.shields.io/badge/Join%20WhatsApp%20Channel-25D366?style=for-the-badge&logo=whatsapp&logoColor=white" alt="WhatsApp channel" /></a>
+<a href="https://discord.gg/GWJvzcxuN"><img src="https://img.shields.io/badge/Join%20My%20Discord-5865F2?style=for-the-badge&logo=discord&logoColor=white" alt="Discord" /></a>
 
 </div>
 
@@ -267,16 +271,26 @@ Before opening a pull request:
 
 <div align="center">
 
-<a href="https://github.com/MrCheeku"><img src="https://avatars.githubusercontent.com/u/235286067?v=4" width="88" height="88" alt="Mr.Cheeku" /></a>
+<a href="https://github.com/MrCheeku"><img src="https://avatars.githubusercontent.com/u/235286067?v=4" width="88" height="88" alt="Mr.Cheeku GitHub avatar" /></a>
 
 ### **Mr.Cheeku**
 
-<a href="https://github.com/MrCheeku"><img src="https://img.shields.io/badge/View%20Developer%20Profile-↗-111827?style=for-the-badge&logo=github&logoColor=white" alt="Developer profile" /></a>
+<a href="https://github.com/MrCheeku"><img src="https://img.shields.io/badge/Visit%20Developer%20Profile-↗-111827?style=for-the-badge&logo=github&logoColor=white" alt="Developer profile" /></a>
 
-<br /><br />
+</div>
+
+---
+
+<div align="center">
 
 <a href="https://github.com/MrCheeku/Cyber-Heist-Blackout/issues">Report an issue</a>
 &nbsp;•&nbsp;
 <a href="https://github.com/MrCheeku/Cyber-Heist-Blackout">View source</a>
+&nbsp;•&nbsp;
+<a href="https://github.com/MrCheeku">Developer profile</a>
+
+<br /><br />
+
+<img src="assets/footer.svg" alt="Cyber Heist Blackout footer" width="100%" />
 
 </div>
