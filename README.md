@@ -223,10 +223,12 @@ GEMINI_API_KEY=your_real_key_here
 The project includes JVM tests, Android instrumentation tests, Compose UI testing support, Robolectric, and Roborazzi screenshot tooling.
 
 ```bash
-./gradlew test
-./gradlew assembleDebug
-./gradlew connectedAndroidTest
+gradle test
+gradle assembleDebug
+gradle connectedAndroidTest
 ```
+
+> The repository does not currently include the Gradle wrapper scripts (`gradlew` / `gradlew.bat`). You can run these tasks from Android Studio or from a system Gradle installation.
 
 ---
 
@@ -259,9 +261,19 @@ Cyber Heist // Blackout is an educational game, not a production penetration-tes
 
 <div align="center">
 
-<a href="https://techwithcheeku.lovable.app/"><img src="https://img.shields.io/badge/Visit%20Tech%20with%20Cheeku-Website-7c3aed?style=for-the-badge&logo=googlechrome&logoColor=white" alt="Tech with Cheeku website" /></a>
-<a href="https://whatsapp.com/channel/0029Vb9OpwgD8SDvISwrn73Y"><img src="https://img.shields.io/badge/Join%20WhatsApp%20Channel-25D366?style=for-the-badge&logo=whatsapp&logoColor=white" alt="WhatsApp channel" /></a>
-<a href="https://discord.gg/GWJvzcxuN"><img src="https://img.shields.io/badge/Join%20My%20Discord-5865F2?style=for-the-badge&logo=discord&logoColor=white" alt="Discord" /></a>
+<p>
+  <a href="https://techwithcheeku.lovable.app/"><img src="https://img.shields.io/badge/🌐%20Tech%20with%20Cheeku-Website-7c3aed?style=for-the-badge" alt="Visit Tech with Cheeku website" /></a>
+</p>
+
+<p>
+  <a href="https://whatsapp.com/channel/0029Vb9OpwgD8SDvISwrn73Y"><img src="https://img.shields.io/badge/💬%20WhatsApp-Join%20the%20Channel-25D366?style=for-the-badge&logo=whatsapp&logoColor=white" alt="Join the Tech with Cheeku WhatsApp channel" /></a>
+</p>
+
+<p>
+  <a href="https://discord.gg/GWJvzcxu"><img src="https://img.shields.io/badge/👾%20Discord-Join%20the%20Community-5865F2?style=for-the-badge&logo=discord&logoColor=white" alt="Join the Tech with Cheeku Discord community" /></a>
+</p>
+
+<sub>Official community and project links for Tech with Cheeku.</sub>
 
 </div>
 
