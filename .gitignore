@@ -1,18 +1,30 @@
-*.iml
-.gradle
-.idea
-local.properties
-.DS_Store
+# Gradle
+.gradle/
 build/
-/captures
-.externalNativeBuild/
-.cxx/
+**/build/
+.kotlinc/
+.kotlin/
+
+# Android Studio / IntelliJ
+.idea/
+*.iml
+local.properties
+
+# Local environment and secrets
 .env
+.env.*
+!.env.example
 *.keystore
 *.jks
 *.p12
+*.pfx
 *.pem
 *.key
 *.pkcs12
-**/secrets*
+**/secrets/**
 **/*credentials*
+**/*secret*
+
+# OS / tooling
+.DS_Store
+Thumbs.db
