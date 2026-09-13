@@ -54,9 +54,21 @@ A central `CyberGameViewModel` coordinates player state, missions, simulated thr
 
 <div align="center">
 
+<a href="https://www.youtube.com/watch?v=CcoH1X-nqLk">
+  <img src="https://img.youtube.com/vi/CcoH1X-nqLk/maxresdefault.jpg" alt="Hacknet launch trailer — cybersecurity gameplay reference" width="900" />
+</a>
+
+### ▶️ Watch: Cybersecurity Gameplay Reference
+
+**Hacknet — Launch Trailer** is used as a visual reference for the terminal-driven, story-focused cybersecurity atmosphere this project aims for. It is **not footage from Cyber Heist // Blackout**.
+
+<a href="https://www.youtube.com/watch?v=CcoH1X-nqLk"><img src="https://img.shields.io/badge/▶%20WATCH%20TRAILER-YouTube-FF0000?style=for-the-badge&logo=youtube&logoColor=white" alt="Watch Hacknet launch trailer on YouTube" /></a>
+
+<br /><br />
+
 <img src="app/src/main/res/drawable/ic_cyber_heist.jpg" alt="Cyber Heist Blackout visual" width="900" />
 
-> 🎥 **Visual preview:** the project includes its own cyberpunk artwork and themed Android UI. The complete experience contains missions, labs, terminal gameplay, forensics, encryption, threat radar, and simulated TryHackMe-style rooms.
+<sub>Cyber Heist // Blackout artwork and UI preview — the project itself is an Android simulation with missions, labs, terminal gameplay, forensics, encryption, threat radar, and simulated TryHackMe-style rooms.</sub>
 
 </div>
 
