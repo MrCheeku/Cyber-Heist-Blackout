@@ -260,7 +260,7 @@ Cyber Heist // Blackout is an educational game, not a production penetration-tes
 </p>
 
 <p>
-  <a href="https://discord.gg/GWJvzcxu"><img src="https://img.shields.io/badge/👾%20Discord-Join%20the%20Community-5865F2?style=for-the-badge&logo=discord&logoColor=white" alt="Join the Tech with Cheeku Discord community" /></a>
+  <a href="https://discord.gg/c9Ce54dw96"><img src="https://img.shields.io/badge/👾%20Discord-Join%20the%20Community-5865F2?style=for-the-badge&logo=discord&logoColor=white" alt="Join the Tech with Cheeku Discord community" /></a>
 </p>
 
 <sub>Official community and project links for Tech with Cheeku.</sub>
