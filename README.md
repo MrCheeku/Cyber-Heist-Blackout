@@ -20,6 +20,8 @@
 
 **Cyber Heist // Blackout** is an Android cybersecurity game that turns defensive-security concepts into a cinematic, interactive operation. Built with **Kotlin + Jetpack Compose**, it combines missions, simulated attacks, encryption puzzles, digital forensics, network challenges, security audits, upgrades, and an optional Gemini-powered assistant.
 
+> **Repository completeness notice:** The current `main` branch does not contain the Android application source, manifest, root Gradle configuration, or Gradle wrapper. The feature and architecture descriptions below document the intended project scope; this checkout is **not currently buildable** as an Android application. Restore the original Android project files before treating the described features as verified implementation.
+
 The world inside the app is a **self-contained simulation**. Targets, credentials, flags, packets, terminals, and attack-boxes are fictional game data.
 
 ### ✨ Highlights
@@ -252,7 +254,7 @@ Cyber Heist // Blackout is an educational game, not a production penetration-tes
 <div align="center">
 
 <p>
-  <a href="https://techwithcheeku.lovable.app/"><img src="https://img.shields.io/badge/🌐%20Tech%20with%20Cheeku-Website-7c3aed?style=for-the-badge" alt="Visit Tech with Cheeku website" /></a>
+  <a href="https://TechWithCheeku.app"><img src="https://img.shields.io/badge/🌐%20Tech%20with%20Cheeku-Website-7c3aed?style=for-the-badge" alt="Visit Tech with Cheeku website" /></a>
 </p>
 
 <p>
